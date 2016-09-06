@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gladiator</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+<div style="float:right" class="gladiator">
+	<div class="name" style="color:white"><u>Jason</u></div>
+	<div class="health" style="color:white">Health: 100</div>
+	<progress value="100" max="100">20 %</progress>
+	<div class="rage" style="color:white">Rage: 0</div>
+	<div id="progress" value="0" max="100"></div>
+
+	<button class="btn btn-primary btn-lg" onclick="document.getElementById('up7913').disabled=true;document.getElementById('down7913').disabled=false;" type="submit" class="positive" name="up7913" id="up7913">Attack</button>
+	<button class="btn btn-danger">Heal</button>
+
+</div>
+
+<h1 style="text-indent: 67rem">Vs.</h1>
+
+<div class="gladiator">
+	<div class="name" style="color:white"><u>Freddie</u></div>
+	<div class="health" style="color:white">Health: 100</div>
+	<progress value="100" max="100">20 %</progress>
+	<div class="rage" style="color:white">Rage: 0</div>
+	<div id="progress"></div>
+
+<button class="btn btn-primary btn-lg" onclick="this.disabled=true;document.getElementById('up7913').disabled=false;" type="submit" class="negative" name="down7913" id="down7913">Attack</button>
+<button class="btn btn-danger" onclick="something();">Heal</button>
+</div>
+<script src="js/something.js"></script>
+</body>
+</div>
+</html>
